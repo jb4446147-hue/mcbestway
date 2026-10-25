@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>别单点 · McBestWay</title>
+<style>
+:root{--bg:#0A0A0C;--card:#121216;--line:#26262E;--fg:#F2F0EB;--muted:#8C8C97;
+--dim:#5B5B66;--yellow:#FFC72C;--green:#2BD98A;
+--sans:"PingFang SC","Microsoft YaHei",system-ui,sans-serif}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(820px 460px at 10% -12%,#1d1608,rgba(10,10,12,0) 62%),var(--bg);
+color:var(--fg);font-family:var(--sans);padding:34px 20px 40px}
+.wrap{max-width:980px;margin:0 auto}
+.brand{display:flex;align-items:center;gap:9px;font-size:11px;letter-spacing:.2em;color:var(--dim);
+text-transform:uppercase;font-weight:700;margin-bottom:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden;
+box-shadow:0 26px 60px rgba(0,0,0,.5)}
+.head{padding:26px 30px 20px;border-bottom:1px solid var(--line);
+background:linear-gradient(180deg,#15151A,#111115)}
+h1{margin:0 0 10px;font-size:32px;letter-spacing:-.01em;line-height:1.22}
+h1.good{background:linear-gradient(100deg,#FFD75E,#FFB800 52%,#FF9A3D);
+-webkit-background-clip:text;background-clip:text;color:transparent}
+h1.flat{color:#B9B4A6}
+.lead{color:#B6B2A8;font-size:13.5px;line-height:1.85}
+.lead b{color:var(--fg)}
+.chart{padding:14px 22px 4px}
+table{width:100%;border-collapse:collapse;font-size:12.5px}
+th{text-align:left;font-size:9.5px;letter-spacing:.14em;color:var(--dim);text-transform:uppercase;
+font-weight:700;padding:9px 8px;border-bottom:1px solid var(--line)}
+td{padding:10px 8px;border-bottom:1px solid #1B1B21;color:#B9B5AC;vertical-align:top}
+td.n{color:var(--fg);font-weight:600}
+td.m{color:#8C8C97;font-size:11.5px}
+td.p{font-family:ui-monospace,monospace;text-align:right;white-space:nowrap}
+tr.base td{color:#6E6E7A}
+tr.base td.p{text-decoration:line-through;text-decoration-color:#4A4A56}
+tr.win td{background:rgba(43,217,138,.06)}
+tr.win td.n{color:var(--green)}
+tr.win td.p{color:var(--green);font-weight:700}
+.tag{display:inline-block;margin-left:7px;font-size:9.5px;padding:2px 6px;border-radius:5px;
+background:rgba(43,217,138,.16);color:var(--green);font-weight:700;vertical-align:1px}
+.tag.s{background:rgba(140,140,151,.14);color:#9A9AA5}
+.body{padding:6px 30px 22px}
+.meta{margin-top:18px;padding-top:14px;border-top:1px solid var(--line);
+font-size:11px;color:var(--dim);line-height:1.95;font-family:ui-monospace,monospace}
+.meta b{color:#8C8C97}
+.foot{max-width:980px;margin:14px auto 0;font-size:11px;color:#3E3E48;text-align:center;line-height:1.8}
+</style></head><body>
+<div class="wrap">
+  <div class="brand">🍔 <b style="color:#FFC72C;letter-spacing:.04em">McBestWay</b> · 别单点</div>
+  <div class="card">
+    <div class="head">
+      <h1 class="good">别单点：省 ¥18.00</h1>
+      <div class="lead">你单点要花 <b>¥54.00</b>。换成「“苹”水相“鱼”套餐」，只要 <b>¥36.00</b>。</div>
+    </div>
+    <div class="chart"><svg viewBox="0 0 880 132" width="100%" xmlns="http://www.w3.org/2000/svg"><rect x="0" y="0" width="880" height="132" fill="none"/><text x="84" y="44" fill="#5B5B66" font-size="11" text-anchor="end">单点</text><rect x="96" y="22" width="744.0" height="34" rx="7" fill="#232330"/><text x="110" y="45" fill="#8C8C97" font-size="13" font-family="ui-monospace,monospace">¥54.00</text><text x="84" y="104" fill="#5B5B66" font-size="11" text-anchor="end">最优</text><defs><linearGradient id="g1" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#1FB877"/><stop offset="1" stop-color="#3FE39B"/></linearGradient></defs><rect x="96" y="82" width="496.0" height="34" rx="7" fill="url(#g1)"/><text x="110" y="105" fill="#06251A" font-size="13" font-weight="700" font-family="ui-monospace,monospace">¥36.00</text><text x="602.0" y="105" fill="#2BD98A" font-size="12" font-family="ui-monospace,monospace">省 ¥18.00</text></svg></div>
+    <div class="body">
+      <table>
+        <tr><th>买法</th><th>说明</th><th style="text-align:right">金额</th></tr>
+        <tr class="base"><td class="n">单点（原方案）</td><td class="m">麦香鱼、小杯玉米杯、苹果片一袋(60g)、锡兰红茶</td><td class="p">¥54.00</td></tr>
+<tr class="win"><td class="n">“苹”水相“鱼”套餐<span class="tag">套餐</span></td><td class="m">覆盖 麦香鱼、小杯玉米杯、苹果片一袋(60g)、锡兰红茶</td><td class="p">¥36.00</td></tr>
+      </table>
+      <div class="meta">
+        <div><b>门店</b> 麦当劳上海黄浦华旭国际大厦餐厅（1450713）</div>
+        <div><b>数据</b> 离线快照（真实门店数据，抓取于 2026-10-25 20:12）</div>
+        <div><b>比价</b> 已枚举 6 个可覆盖套餐，子集 DP 求精确最低价</div>
+        
+        <div><b>说明</b> 金额均来自麦当劳 MCP 的 calculate-price，价格与供应以官方实时结果为准。</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="foot">McBestWay · 麦当劳程序员创意开发大赛参赛作品，非麦当劳官方产品</div>
+</body></html>
