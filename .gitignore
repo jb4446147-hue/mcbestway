@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+bestway-report.html
+report.html
+.pytest_cache/
+.DS_Store
